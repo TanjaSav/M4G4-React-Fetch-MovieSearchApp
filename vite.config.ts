@@ -7,6 +7,6 @@ export default defineConfig({
   plugins: [
     react(),
     tailwindcss(),
-    base: '/M4G4-React-Fetch-MovieSearchApp'
   ],
+  base: '/M4G4-React-Fetch-MovieSearchApp'
 })
