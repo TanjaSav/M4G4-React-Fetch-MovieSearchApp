@@ -1,17 +1,14 @@
-
-
-import { useEffect, useState, FormEvent } from 'react';
+import { useEffect, useState } from 'react';
+import type { FormEvent } from 'react';
 import Header from './components/Header';
 import MoviesCard from './components/MoviesCard';
-import type {Movie} from './types'
-
-
+import type { Movie } from './types';
 
 // API constants
 const API_KEY = '91d9451eeb56a7a82a1f36e7415f433d';
 const IMAGE_PATH = 'https://image.tmdb.org/t/p/w1280';
 
-const App = () => {
+const App: React.FC = () => {
   const [movies, setMovies] = useState<Movie[]>([]);
   const [searchTerm, setSearchTerm] = useState('');
 
@@ -68,4 +65,3 @@ const App = () => {
 };
 
 export default App;
-
