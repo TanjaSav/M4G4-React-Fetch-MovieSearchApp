@@ -4,16 +4,20 @@ A single-page application for searching movies using the TMDB API, displays resu
 
 
 ## Folder Structure
-src/
-  assets/
-    Logo.svg
-  components/
-    Header.tsx
-    MoviesCard.tsx
-    MoviesList.tsx
-  types.ts
-  App.tsx
-  main.tsx
+```
+├── public/ 
+  └── img/ 
+        └── Logo.svg
+|── src/ 
+  ├── components/    
+      ├── Header.tsx
+      ├── MoviesCard.tsx       
+      └── MoviesList.tsx    
+  ├── types.ts
+  ├── App.tsx              
+  └── main.tsx
+```        
+
 
 ## Components Overview
 
