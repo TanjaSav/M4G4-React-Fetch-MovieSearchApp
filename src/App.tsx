@@ -5,7 +5,7 @@ import MoviesCard from './components/MoviesCard';
 import type { Movie } from './types';
 
 // API constants
-const API_KEY = '91d9451eeb56a7a82a1f36e7415f433d';
+const API_KEY = 'a993c6228f2937a5b342f864bae28711';
 const IMAGE_PATH = 'https://image.tmdb.org/t/p/w1280';
 
 const App: React.FC = () => {
